@@ -1,6 +1,6 @@
 # RadMap
 
-Current version v1.0.0-beta.4
+Current version v1.1.0
 
 ## About RadMap
 RadMap is a software that allows you to simulate how radiation interacts with matter. With RadMap you describe an environment in terms of geometrical objects and sources of radiation. RadMap then uses a full Monte Carlo algorithm to calculate the effects of radiation in desired points of your environment.
