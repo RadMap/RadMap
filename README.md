@@ -10,3 +10,5 @@ With RadMap you can
    * calculate external gamma dose due to a large number of radioactive isotopes in complex geometries
    * define new materials if the many predefined materials do not suite your needs
    * save your geometries and sources for later use and sharing
+   
+Se the full documentation at [Readthedocs](https://radmap.readthedocs.io/en/latest/)
