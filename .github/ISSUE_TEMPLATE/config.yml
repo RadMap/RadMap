@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/RadMap/RadMap/discussions/categories/q-a
+    about: How do I…? Questions about using RadMap go here.
+  - name: Licensing or confidential matters
+    url: mailto:info@radmap.tech
+    about: License requests, or anything you cannot post publicly.
