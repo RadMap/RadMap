@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest something RadMap should do
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or calculation, and what makes it hard today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could RadMap help?
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround, if any
