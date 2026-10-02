@@ -1,0 +1,62 @@
+name: Bug report
+  description: Something in RadMap does not work as expected
+  title: "[Bug]: "
+  labels: ["bug"]
+  body:
+    - type: markdown
+      attributes:
+        value: |
+          Thanks for taking the time to report a problem.
+          **Please do not post confidential project data** (facility geometry,
+          source inventories, activities). For anything confidential, email
+          info@radmap.tech instead.
+    - type: input
+      id: version
+      attributes:
+        label: RadMap version
+        description: Shown under Help → About.
+        placeholder: e.g. 2.0.0
+      validations:
+        required: true
+    - type: dropdown
+      id: windows
+      attributes:
+        label: Windows version
+        options:
+          - Windows 11
+          - Windows 10
+          - Other
+      validations:
+        required: true
+    - type: textarea
+      id: what-happened
+      attributes:
+        label: What happened?
+        description: What did you do, and what went wrong?
+      validations:
+        required: true
+    - type: textarea
+      id: steps
+      attributes:
+        label: Steps to reproduce
+        placeholder: |
+          1. Create a world volume…
+          2. Attach a source…
+          3. Start the simulation…
+      validations:
+        required: true
+    - type: textarea
+      id: expected
+      attributes:
+        label: What did you expect to happen?
+    - type: textarea
+      id: error
+      attributes:
+        label: Error message
+        description: Copy the text of any error dialog, including "Show details" in the simulation dialog.
+        render: text
+    - type: textarea
+      id: attachments
+      attributes:
+        label: Screenshots or a project file
+        description: Drag files here. Only attach a .rma project if it contains nothing confidential.
