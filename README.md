@@ -1,14 +1,22 @@
 # RadMap
 
-Current version v1.1.0
+A desktop app for dose rate calculations.
 
-## About RadMap
-RadMap is a software that allows you to simulate how radiation interacts with matter. With RadMap you describe an environment in terms of geometrical objects and sources of radiation. RadMap then uses a full Monte Carlo algorithm to calculate the effects of radiation in desired points of your environment.
+RadMap simulates how gamma radiation from radioactive sources travels through
+matter. You describe the environment as solids – boxes, tubes and spheres –
+with their materials, attach sources of any radionuclide, and place dose maps
+where you want to know the dose rate. RadMap follows the radiation with the
+Monte Carlo toolkit Geant4 and reports effective dose, ambient dose
+equivalent H*(10) or air kerma, with its statistical uncertainty.
 
-With RadMap you can
+- **Download:** the installer is attached to the
+  [latest release](https://github.com/RadMap/RadMap/releases/latest), with its
+  SHA-256 checksum. Windows 10 (1803) or later, or Windows 11 - 64-bit only.
+- **Documentation:** installation, the user guide, how RadMap calculates, and
+  each version's V&V report: <https://radmap.tech/documentation/latest/>
+- **Website:** <https://radmap.tech>
+- **Questions:** [Discussions](https://github.com/RadMap/RadMap/discussions).
+  Problems can be reported as [issues](https://github.com/RadMap/RadMap/issues).
 
-   * calculate external gamma dose due to a large number of radioactive isotopes in complex geometries
-   * define new materials if the many predefined materials do not suite your needs
-   * save your geometries and sources for later use and sharing
-   
-Se the full documentation at [Readthedocs](https://radmap.readthedocs.io/en/latest/)
+  RadMap is free to use up to 50,000 primary particles per simulation; a full
+  license removes the limit (see *Licensing* in the documentation).
